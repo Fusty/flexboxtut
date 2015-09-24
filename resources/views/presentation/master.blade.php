@@ -5,6 +5,7 @@
     <title>@yield("title")</title>
 
     <link rel="stylesheet" href="{{ URL::to('css/bootstrap.css') }}">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <style>
         .page {
             /*Vertically layout items
