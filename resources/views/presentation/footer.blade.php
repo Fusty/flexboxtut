@@ -8,9 +8,3 @@
     <a class="btn btn-warning" href="{{ URL::to('step/'.($stepNum+1)) }}" style="color:rgb(34, 149, 101);">Next Step</a>
 </div>
 @endif
-<div class="footer-item">
-    Item 1
-</div>
-<div class="footer-item">
-    Item 2
-</div>

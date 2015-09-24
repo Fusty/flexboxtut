@@ -63,8 +63,7 @@
             display:flex;
             align-items:center;
 
-            min-width:250px;
-            padding: 0px 10px;
+            padding: 0px 20px;
             border-right:2px solid rgb(232, 216, 88);
             color: rgb(232, 216, 88);
 
@@ -94,8 +93,7 @@
             display:flex;
             align-items:center;
 
-            min-width:250px;
-            padding: 0px 10px;
+            padding: 0px 20px;
             border-right:2px solid rgb(232, 216, 88);
             color: rgb(232, 216, 88);
         }
@@ -108,6 +106,10 @@
         .child {
             background-color: rgb(225, 220, 106);
             border:2px solid rgb(36, 153, 25);
+        }
+
+        .expandable {
+            transition: all 0.5s;
         }
     </style>
 

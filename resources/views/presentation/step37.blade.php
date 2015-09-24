@@ -42,6 +42,7 @@
                     $(this).css('flex-grow', '10');
                     $(this).html('Click me!<br/>flex-grow:10;');
                     FlexDemo.currentlySelected = this;
+
                 }
             });
         });
