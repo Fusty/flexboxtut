@@ -9,10 +9,10 @@
 
 @section("header")
     @include("presentation.header", ['stepNum' => $stepNum, 'maxSteps' => $maxSteps])
+    <div class="header-item header-brand" style="font-weight:normal;">Aligning Items Horizontally</div>
 @endsection
 
 @section("content")
-    <h2>Aligning Items Horizontally</h2>
     <div style="display:flex;flex-direction:column;justify-content:center;align-items:stretch;">
         <div style="display:flex;flex-direction:row;justify-content:space-around;">
             <div>

@@ -9,10 +9,10 @@
 
 @section("header")
     @include("presentation.header", ['stepNum' => $stepNum, 'maxSteps' => $maxSteps])
+    <div class="header-item header-brand" style="font-weight:normal;">Align Wrapped Rows (align-content)</div>
 @endsection
 
 @section("content")
-    <h2>Align Wrapped Rows (align-content)</h2>
     <div style="display:flex;flex-direction:column;justify-content:center;align-items:stretch;">
         <div class="row">
             <div class="col-xs-6">

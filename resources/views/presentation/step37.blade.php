@@ -9,7 +9,9 @@
 
 @section("header")
     @include("presentation.header", ['stepNum' => $stepNum, 'maxSteps' => $maxSteps])
+    <div class="header-item header-brand" style="font-weight:normal;">Focus Section Expansion</div>
 @endsection
+
 
 @section("content")
     <h2>Focus Section Expansion</h2>

@@ -108,7 +108,17 @@
             border:2px solid rgb(36, 153, 25);
         }
 
-        .expandable {
+        .child2 {
+            background-color: rgb(51, 225, 135);
+            border:2px solid rgb(216, 241, 68);
+        }
+
+        .child3 {
+            background-color: rgb(225, 146, 44);
+            border:2px solid rgb(196, 103, 176);
+        }
+
+        .expandable, .reorderable, .parent, .child, .child2 {
             transition: all 0.5s;
         }
     </style>

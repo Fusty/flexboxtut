@@ -9,10 +9,10 @@
 
 @section("header")
     @include("presentation.header", ['stepNum' => $stepNum, 'maxSteps' => $maxSteps])
+    <div class="header-item header-brand" style="font-weight:normal;">"Masonry" for constant height items</div>
 @endsection
 
 @section("content")
-    <h2>"Masonry" for constant height items </h2>
     <code>
         display:flex;<br/>
         flex-direction:row;<br/>

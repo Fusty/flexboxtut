@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('presentation.index', ['stepNum' => 'index', 'maxSteps' => 40]);
+    return Redirect::to('step/1');
 });
 
 Route::get('step/{stepNum}', function($stepNum = 1){
