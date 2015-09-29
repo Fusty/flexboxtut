@@ -12,6 +12,7 @@
             flex-direction:row;
             flex-wrap:wrap;
 
+            font-size:smaller;
         }
 
         .flex-row>* {
@@ -22,9 +23,7 @@
             padding:10px;
 
             text-align:center;
-
             background-clip:content-box;
-
         }
 
         .flex-grow {
@@ -108,20 +107,27 @@
     </div>
     <div class="flex-row parent">
         <div class="flex-col-6 flex-offset-3 child">
-            .flex-col-6<br/>
-            .flex-offset-3
+            .flex-col-6 .flex-offset-3
         </div>
     </div>
     <div class="flex-row parent">
         <div class="flex-col-6 flex-offset-1 child">
-            .flex-col-6<br/>
-            .flex-offset-1
+            .flex-col-6 .flex-offset-1
+        </div>
+    </div>
+    <div class="flex-row parent">
+        <div class="flex-col-1 child">
+            .flex-col-1
+        </div>
+        <div class="flex-col-1 child">
+            .flex-col-1
         </div>
     </div>
     <div class="flex-row">
-        <div class="flex-col-6 child" style="text-align:left;">
-            Vanilla CSS
+        <div class="flex-col-6" style="text-align:left;">
             <pre class="prettyprint">
+Vanilla CSS
+
 .flex-row {
     display:flex;
     flex-direction:row;
@@ -211,26 +217,20 @@
 
             </pre>
         </div>
-        <div class="flex-col-6 child" style="text-align:left;">
-            Blade CSS
+        <div class="flex-col-6" style="text-align:left;">
             <pre class="prettyprint">
+Blade CSS
+
 .flex-row {
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
-
 }
 .flex-row>* {
     flex-grow:0;
     flex-shrink:0;
     flex-basis:8.3333%;
-
     padding:10px;
-
-    text-align:center;
-
-    background-clip:content-box;
-
 }
 .flex-grow {
     flex-grow:1;

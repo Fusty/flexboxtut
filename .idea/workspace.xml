@@ -2,52 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27262df6-939f-4249-b83f-f4e677219ff5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/presentation/outrun.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/presentation/step39.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/footer.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/footer.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/header.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/header.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/master.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/master.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step1.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step1.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step10.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step10.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step11.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step11.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step12.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step12.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step13.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step13.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step14.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step14.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step15.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step15.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step16.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step16.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step17.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step17.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step18.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step18.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step19.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step19.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step2.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step2.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step20.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step20.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step21.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step21.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step22.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step22.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step23.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step23.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step24.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step24.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step25.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step25.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step26.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step26.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step27.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step27.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step28.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step28.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step29.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step29.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step3.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step3.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step30.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step30.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step31.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step31.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step32.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step32.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step33.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step33.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step34.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step34.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step35.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step35.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step36.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step36.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step37.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step37.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step4.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step4.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step5.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step5.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step6.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step6.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step7.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step7.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step8.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step8.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step9.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step9.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step39.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step39.blade.php" />
     </list>
     <ignored path="flexboxSource.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,16 +47,13 @@
       <file leaf-file-name="step39.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/presentation/step39.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5892618">
-              <caret line="242" column="26" selection-start-line="242" selection-start-column="26" selection-end-line="242" selection-end-column="26" />
-              <caret line="243" column="32" selection-start-line="243" selection-start-column="32" selection-end-line="243" selection-end-column="32" />
-              <caret line="249" column="29" selection-start-line="249" selection-start-column="29" selection-end-line="249" selection-end-column="29" />
-              <caret line="250" column="33" selection-start-line="250" selection-start-column="33" selection-end-line="250" selection-end-column="33" />
+            <state vertical-scroll-proportion="-2.7208054">
+              <caret line="113" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
               <folding>
-                <element signature="e#1141#1168#0#HTML" expanded="true" />
-                <element signature="e#1243#1288#0#HTML" expanded="true" />
-                <element signature="e#2841#2865#0#HTML" expanded="true" />
-                <element signature="e#4219#4243#0#HTML" expanded="true" />
+                <element signature="e#1170#1197#0#HTML" expanded="true" />
+                <element signature="e#1272#1317#0#HTML" expanded="true" />
+                <element signature="e#3031#3055#0#HTML" expanded="true" />
+                <element signature="e#4392#4416#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -787,14 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/presentation/outrun.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.666667">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/presentation/step38.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.259259">
@@ -811,18 +755,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/presentation/outrun.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.666667">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/presentation/step39.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5892618">
-          <caret line="242" column="26" selection-start-line="242" selection-start-column="26" selection-end-line="242" selection-end-column="26" />
-          <caret line="243" column="32" selection-start-line="243" selection-start-column="32" selection-end-line="243" selection-end-column="32" />
-          <caret line="249" column="29" selection-start-line="249" selection-start-column="29" selection-end-line="249" selection-end-column="29" />
-          <caret line="250" column="33" selection-start-line="250" selection-start-column="33" selection-end-line="250" selection-end-column="33" />
+        <state vertical-scroll-proportion="-2.7208054">
+          <caret line="113" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
           <folding>
-            <element signature="e#1141#1168#0#HTML" expanded="true" />
-            <element signature="e#1243#1288#0#HTML" expanded="true" />
-            <element signature="e#2841#2865#0#HTML" expanded="true" />
-            <element signature="e#4219#4243#0#HTML" expanded="true" />
+            <element signature="e#1170#1197#0#HTML" expanded="true" />
+            <element signature="e#1272#1317#0#HTML" expanded="true" />
+            <element signature="e#3031#3055#0#HTML" expanded="true" />
+            <element signature="e#4392#4416#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
