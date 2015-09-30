@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27262df6-939f-4249-b83f-f4e677219ff5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/presentation/step40.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/footer.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/footer.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step37.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step37.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step38.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step38.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/presentation/step39.blade.php" afterPath="$PROJECT_DIR$/resources/views/presentation/step39.blade.php" />
-    </list>
+    <list default="true" id="27262df6-939f-4249-b83f-f4e677219ff5" name="Default" comment="" />
     <ignored path="flexboxSource.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -52,7 +45,7 @@
       <file leaf-file-name="step40.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/presentation/step40.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49261746">
+            <state vertical-scroll-proportion="4.6630874">
               <caret line="193" column="10" selection-start-line="193" selection-start-column="10" selection-end-line="193" selection-end-column="10" />
               <folding>
                 <element signature="e#1915#1975#0#HTML" expanded="true" />
@@ -758,7 +751,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/presentation/step40.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49261746">
+        <state vertical-scroll-proportion="4.6630874">
           <caret line="193" column="10" selection-start-line="193" selection-start-column="10" selection-end-line="193" selection-end-column="10" />
           <folding>
             <element signature="e#1915#1975#0#HTML" expanded="true" />
