@@ -122,6 +122,21 @@
         <div class="flex-col-1 child">
             .flex-col-1
         </div>
+        <div class="flex-col-6 child flex-row">
+            <div class="flex-col-12 child2">
+                Nested Grid<br/>
+                .flex-col-12
+            </div>
+            <div class="flex-col-4 child2">
+                .flex-col-4
+            </div>
+            <div class="flex-col-4  child2">
+                .flex-col-4
+            </div>
+            <div class="flex-col-4  child2">
+                .flex-col-4
+            </div>
+        </div>
     </div>
     <div class="flex-row">
         <div class="flex-col-6" style="text-align:left;">
