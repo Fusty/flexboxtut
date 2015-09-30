@@ -193,5 +193,4 @@
 
 @section("footer")
     @include("presentation.footer", ['stepNum' => $stepNum, 'maxSteps' => $maxSteps])
-    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=desert"></script>
 @endsection

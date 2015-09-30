@@ -34,6 +34,7 @@
 @section("header")
     @include("presentation.header", ['stepNum' => $stepNum, 'maxSteps' => $maxSteps])
     <div class="header-item header-brand" style="font-weight:normal;">Goofball Layouts</div>
+    <div class="header-item" style="font-weight:normal;">Almost have a typing game going here . . .</div>
 @endsection
 
 @section("content")
@@ -131,7 +132,7 @@
     background-color: #c29d97;
 }
         </pre>
-        <pre class="prettyprint" style="flex-grow:1;">
+        <pre class="prettyprint" style="flex-grow:1;font-size:15px;">
 &#x3C;div class=&#x22;keyboard&#x22;&#x3E;
     &#x3C;div class=&#x22;keyboard-row&#x22;&#x3E;
         &#x3C;div class=&#x22;keyboard-key keyboard-key-Backtick&#x22;&#x3E;&#x60;&#x3C;/div&#x3E;
@@ -420,5 +421,4 @@
             });
         });
     </script>
-    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=desert"></script>
 @endsection
