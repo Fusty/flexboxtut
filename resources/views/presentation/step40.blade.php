@@ -73,135 +73,135 @@
 
 @section("content")
     <div style="display:flex;flex-direction:row;align-items:stretch;">
-        <pre class="prettyprint" style="flex-basis:50%;">
-            Top Left
+        <pre class="prettyprint" style="flex-basis:50%;margin-bottom:0;">
+    Top Left
 
-            .top-left {
-                display:flex;
-                flex-direction:row;
-                justify-content:flex-start;
-                align-items:flex-start;
-            }
+    .top-left {
+        display:flex;
+        flex-direction:row;
+        justify-content:flex-start;/*Main Axis*/
+        align-items:flex-start;/*Cross Axis*/
+    }
         </pre>
         <div class="top-left parent" style="flex-basis:50%;">
             I should be in the top left
         </div>
     </div>
     <div style="display:flex;flex-direction:row;align-items:stretch;">
-        <pre class="prettyprint" style="flex-basis:50%;">
-            Center left
+        <pre class="prettyprint" style="flex-basis:50%;margin-bottom:0;">
+    Center left
 
-            .center-left {
-                display:flex;
-                flex-direction:row;
-                justify-content:flex-start;
-                align-items:center;
-            }
+    .center-left {
+        display:flex;
+        flex-direction:row;
+        justify-content:flex-start;/*Main Axis*/
+        align-items:center;/*Cross Axis*/
+    }
         </pre>
         <div class="center-left parent" style="flex-basis:50%;">
             I should be in the center left
         </div>
     </div>
     <div style="display:flex;flex-direction:row;align-items:stretch;">
-        <pre class="prettyprint" style="flex-basis:50%;">
-            Bottom left
+        <pre class="prettyprint" style="flex-basis:50%;margin-bottom:0;">
+    Bottom left
 
-            .bottom-left {
-                display:flex;
-                flex-direction:row;
-                justify-content:flex-start;
-                align-items:center;
-            }
+    .bottom-left {
+        display:flex;
+        flex-direction:row;
+        justify-content:flex-start;/*Main Axis*/
+        align-items:center;/*Cross Axis*/
+    }
         </pre>
         <div class="bottom-left parent" style="flex-basis:50%;">
             I should be in the bottom left
         </div>
     </div>
     <div style="display:flex;flex-direction:row;align-items:stretch;">
-        <pre class="prettyprint" style="flex-basis:50%;">
-            Center Top
+        <pre class="prettyprint" style="flex-basis:50%;margin-bottom:0;">
+    Center Top
 
-            .center-top {
-                display:flex;
-                flex-direction:row;
-                justify-content:center;
-                align-items:flex-start;
-            }
+    .center-top {
+        display:flex;
+        flex-direction:row;
+        justify-content:center;/*Main Axis*/
+        align-items:flex-start;/*Cross Axis*/
+    }
         </pre>
         <div class="center-top parent" style="flex-basis:50%;">
             I should be in the center top
         </div>
     </div>
     <div style="display:flex;flex-direction:row;align-items:stretch;">
-        <pre class="prettyprint" style="flex-basis:50%;">
-            Center Center
+        <pre class="prettyprint" style="flex-basis:50%;margin-bottom:0;">
+    Center Center
 
-            .center-center {
-                display:flex;
-                flex-direction:row;
-                justify-content:center;
-                align-items:center;
-            }
+    .center-center {
+        display:flex;
+        flex-direction:row;
+        justify-content:center;/*Main Axis*/
+        align-items:center;/*Cross Axis*/
+    }
         </pre>
         <div class="center-center parent" style="flex-basis:50%;">
             I should be in the center center
         </div>
     </div>
     <div style="display:flex;flex-direction:row;align-items:stretch;">
-        <pre class="prettyprint" style="flex-basis:50%;">
-            Center Bottom
+        <pre class="prettyprint" style="flex-basis:50%;margin-bottom:0;">
+    Center Bottom
 
-            .center-bottom {
-                display:flex;
-                flex-direction:row;
-                justify-content:center;
-                align-items:flex-end;
-            }
+    .center-bottom {
+        display:flex;
+        flex-direction:row;
+        justify-content:center;/*Main Axis*/
+        align-items:flex-end;/*Cross Axis*/
+    }
         </pre>
         <div class="center-bottom parent" style="flex-basis:50%;">
             I should be in the center bottom
         </div>
     </div>
     <div style="display:flex;flex-direction:row;align-items:stretch;">
-        <pre class="prettyprint" style="flex-basis:50%;">
-            Right Top
+        <pre class="prettyprint" style="flex-basis:50%;margin-bottom:0;">
+    Right Top
 
-            .right-top {
-                display:flex;
-                flex-direction:row;
-                justify-content:flex-end;
-                align-items:flex-start;
-            }
+    .right-top {
+        display:flex;
+        flex-direction:row;
+        justify-content:flex-end;/*Main Axis*/
+        align-items:flex-start;/*Cross Axis*/
+    }
         </pre>
         <div class="right-top parent" style="flex-basis:50%;">
             I should be in the right top
         </div>
     </div>
     <div style="display:flex;flex-direction:row;align-items:stretch;">
-        <pre class="prettyprint" style="flex-basis:50%;">
-            Right Center
+        <pre class="prettyprint" style="flex-basis:50%;margin-bottom:0;">
+    Right Center
 
-            .right-center {
-                display:flex;
-                flex-direction:row;
-                justify-content:flex-end;
-                align-items:center;
-            }
+    .right-center {
+        display:flex;
+        flex-direction:row;
+        justify-content:flex-end;/*Main Axis*/
+        align-items:center;/*Cross Axis*/
+    }
         </pre>
         <div class="right-center parent" style="flex-basis:50%;">
             I should be in the right center
         </div>
     </div>
     <div style="display:flex;flex-direction:row;align-items:stretch;">
-        <pre class="prettyprint" style="flex-basis:50%;">
-            Right Bottom
+        <pre class="prettyprint" style="flex-basis:50%;margin-bottom:0;">
+    Right Bottom
 
-            .right-top {
-                display:flex;
-                flex-direction:row;
-                justify-content:flex-end;
-                align-items:flex-end;
-            }
+    .right-top {
+        display:flex;
+        flex-direction:row;
+        justify-content:flex-end;/*Main Axis*/
+        align-items:flex-end;/*Cross Axis*/
+    }
         </pre>
         <div class="right-bottom parent" style="flex-basis:50%;">
             I should be in the right bottom

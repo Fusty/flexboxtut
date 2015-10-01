@@ -216,7 +216,6 @@
     <script>
         $(document).ready(function(){
             $("body").on("keydown", function(event){
-                event.preventDefault();
                 var char = String.fromCharCode(event.keyCode);
                 console.log(event.keyCode + ":" + char);
 
@@ -314,15 +313,18 @@
                 }
 
                 if(!wasCaught){
-                    $(".keyboard-key-"+char).addClass("isPressed");
+                    if($(".keyboard-key-"+char).length > 0){
+                        $(".keyboard-key-"+char).addClass("isPressed");
+                        event.preventDefault();
+                    }
+                }else{
+                    event.preventDefault();
                 }
             });
             $("body").on("keyup", function(event){
-                event.preventDefault();
-                var char = String.fromCharCode(event.keyCode);
-                console.log(event.keyCode + ":" + char);
-
                 var wasCaught = false;
+                var char = String.fromCharCode(event.keyCode);
+
                 //Handle Special Keys
                 switch(event.keyCode) {
                     case 192:
@@ -416,7 +418,12 @@
                 }
 
                 if(!wasCaught){
-                    $(".keyboard-key-"+char).removeClass("isPressed");
+                    if($(".keyboard-key-"+char).length > 0){
+                        $(".keyboard-key-"+char).removeClass("isPressed");
+                        event.preventDefault();
+                    }
+                }else{
+                    event.preventDefault();
                 }
             });
         });

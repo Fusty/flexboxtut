@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('step/{stepNum}', function($stepNum = 1){
-    return view('presentation.step'.$stepNum, ['stepNum' => $stepNum, 'maxSteps' => 40]);
+    return view('presentation.step'.$stepNum, ['stepNum' => $stepNum, 'maxSteps' => 42]);
 });

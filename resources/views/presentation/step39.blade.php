@@ -15,23 +15,13 @@
             font-size:smaller;
         }
 
-        .flex-row>* {
+        .flex-row > * {
             flex-grow:0;
             flex-shrink:0;
-            flex-basis:8.3333%;
-
             padding:10px;
 
             text-align:center;
             background-clip:content-box;
-        }
-
-        .flex-grow {
-            flex-grow:1;
-        }
-
-        .flex-shrink {
-            flex-shrink:1;
         }
 
         @foreach(range(1,12) as $col)
@@ -144,128 +134,112 @@
 Vanilla CSS
 
 .flex-row {
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-.flex-row>* {
-    flex-grow:0;
-    flex-shrink:0;
-    flex-basis:8.3333%;
-    padding:10px;
-}
-.flex-grow {
-    flex-grow:1;
-}
-.flex-shrink {
-    flex-shrink:1;
+.flex-row > * {
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding: 10px;
 }
 .flex-col-1 {
-    flex-basis: 8.3333%;
+    flex-basis: 8.33333%;
 }
 .flex-col-2 {
-    flex-basis: 16.6666%;
+    flex-basis: 16.66667%;
 }
 .flex-col-3 {
     flex-basis: 25%;
 }
 .flex-col-4 {
-    flex-basis: 33.3333%;
+    flex-basis: 33.33333%;
 }
 .flex-col-5 {
-    flex-basis: 41.6666%;
+    flex-basis: 41.66667%;
 }
 .flex-col-6 {
     flex-basis: 50%;
 }
 .flex-col-7 {
-    flex-basis: 58.3333%;
+    flex-basis: 58.33333%;
 }
 .flex-col-8 {
-    flex-basis: 66.6666%;
+    flex-basis: 66.66667%;
 }
 .flex-col-9 {
     flex-basis: 75%;
 }
 .flex-col-10 {
-    flex-basis: 83.3333%;
+    flex-basis: 83.33333%;
 }
 .flex-col-11 {
-    flex-basis: 91.6666%;
+    flex-basis: 91.66667%;
 }
 .flex-col-12 {
     flex-basis: 100%;
 }
 .flex-offset-1 {
-    margin-left: 8.3333%;
+    margin-left: 8.33333%;
 }
 .flex-offset-2 {
-    margin-left: 16.6666%;
+    margin-left: 16.66667%;
 }
 .flex-offset-3 {
     margin-left: 25%;
 }
 .flex-offset-4 {
-    margin-left: 33.3333%;
+    margin-left: 33.33333%;
 }
 .flex-offset-5 {
-    margin-left: 41.6666%;
+    margin-left: 41.66667%;
 }
 .flex-offset-6 {
     margin-left: 50%;
 }
 .flex-offset-7 {
-    margin-left: 58.3333%;
+    margin-left: 58.33333%;
 }
 .flex-offset-8 {
-    margin-left: 66.6666%;
+    margin-left: 66.66667%;
 }
 .flex-offset-9 {
     margin-left: 75%;
 }
 .flex-offset-10 {
-    margin-left: 83.3333%;
+    margin-left: 83.33333%;
 }
 .flex-offset-11 {
-    margin-left: 91.6666%;
+    margin-left: 91.66667%;
 }
-
             </pre>
         </div>
         <div class="flex-col-6" style="text-align:left;">
             <pre class="prettyprint">
-Blade CSS
+SCSS (Sass)
 
 .flex-row {
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
+    >* {
+        flex-grow:0;
+        flex-shrink:0;
+        padding:10px;
+    }
 }
-.flex-row>* {
-    flex-grow:0;
-    flex-shrink:0;
-    flex-basis:8.3333%;
-    padding:10px;
-}
-.flex-grow {
-    flex-grow:1;
-}
-.flex-shrink {
-    flex-shrink:1;
-}
-&commat;foreach(range(1,12) as $col)
 
-.flex-col-&lbrace;&lbrace; $col &rbrace;&rbrace; {
-    flex-basis: &lbrace;&lbrace;(100/(12/$col))&rbrace;&rbrace;%
+&commat;for $i from 1 through 12 {
+    .flex-col-#{$i} {
+        flex-basis: percentage(1/(12/$i));
+    }
 }
-&commat;endforeach
 
-&commat;foreach(range(1,11) as $col)
-
-.flex-offset-&lbrace;&lbrace; $col &rbrace;&rbrace; {
-    margin-left: &lbrace;&lbrace;(100/(12/$col))&rbrace;&rbrace;%
+&commat;for $i from 1 through 11 {
+    .flex-offset-#{$i} {
+        margin-left: percentage(1/(12/$i));
+    }
 }
-&commat;endforeach
             </pre>
         </div>
     </div>
