@@ -31,7 +31,10 @@
                     flex-grow:2;<br/>
                 </code>
                 on the middle item<br/>
-
+                <h3>What's going on here?</h3>
+                <code>flex-grow:2;</code> - since one div has twice <br/>
+                the flex grow value as the rest it will
+                <br/>expand twice as much.
             </div>
             <div class="parent" style="display:flex;flex-direction:column;min-height:300px">
                 <div class="child" style="flex-grow:1;">

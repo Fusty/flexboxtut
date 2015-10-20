@@ -25,7 +25,11 @@
                     align-items:flex-start;<br/>
                 </code>
                 on the parent<br/>
-
+                <h3>What's going on here?</h3>
+                Here we're seeing the power of <code>align-items</code><br/>
+                This property applies to the parent element and defines how<br/>
+                the child elements will align along the cross axis<br/>
+                (perpendicular to the main axis)<br/>
             </div>
             <div class="parent" style="display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-around;align-items:flex-start;min-width:600px">
                 <div class="child">

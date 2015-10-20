@@ -15,12 +15,13 @@
 @section("content")
     <div style="display:flex;flex-direction:column;justify-content:center;align-items:stretch;">
         <div style="display:flex;flex-direction:row;justify-content:space-around;">
-            <div style="">
+            <div style="max-width:800px;">
                 <h3>
                     I've been throwing a lot at you, but have you noticed some css properties affect different axes?
                 </h3>
-                There are 2 axes in any flexbox container;<br/>
+                There are 2 axes in any flexbox container;<br/><br/>
                 Main Axis: The axis along which you've set the flex-direction<br/>
+                This is horizontal for row and vertical for column<br/><br/>
                 Cross Axis:  Perpendicular to the Main Axis<br/><br/>
             </div>
         </div>

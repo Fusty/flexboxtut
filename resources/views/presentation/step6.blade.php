@@ -16,7 +16,7 @@
     <div style="display:flex;flex-direction:column;justify-content:center;align-items:stretch;">
         <div style="display:flex;flex-direction:row;justify-content:space-around;">
             <div>
-                Center 3 items in a tall div<br/>
+                3 items in a tall div<br/>
                 stretch them equally to fit div<br/>
                 <code>
                     display:flex;<br/>
@@ -27,6 +27,13 @@
                     flex-grow:1;<br/>
                 </code>
                 on the items
+                <h3>What's going on here?</h3>
+                <code>display:flex;</code> - this element will lay out it's<br/>
+                content according to the flexbox model<br/>
+                <code>flex-direction:column;</code> - child elements<br/>
+                will be laid out vertically<br/>
+                <code>flex-grow:1;</code> - child elements will expand<br/>
+                to fill the container
             </div>
             <div class="parent" style="display:flex;flex-direction:column;min-height:300px">
                 <div class="child" style="flex-grow:1;">

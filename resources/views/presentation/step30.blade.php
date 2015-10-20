@@ -37,11 +37,12 @@
                     align-self:flex-end;<br/>
                 </code>
                 on the third item<br/>
-
-
+                <h3>What's going on here?</h3>
+                <code>align-self</code> is a way to override <code>align-items</code><br/>
+                on the child element.
             </div>
             <div class="parent" style="display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-around;align-items:center;min-width:600px">
-                <div class="child" style="align-self:center">
+                <div class="child">
                     Item 1
                 </div>
                 <div class="child" style="align-self:flex-start">

@@ -23,7 +23,12 @@
                     justify-content:flex-start;<br/>
                 </code>
                 on the parent<br/>
-
+                <h3>What's going on here?</h3>
+                Now we're seeing the power of <code>justify-content</code>.<br/>
+                This property applies to the parent and defines how<br/>
+                it's children will lay out along it's primary<br/>
+                axis (horizontal if row, vertical if column).<br/>
+                We'll take a tour of the available values.
             </div>
             <div class="parent" style="display:flex;flex-direction:row;justify-content:flex-start;min-width:600px">
                 <div class="child">

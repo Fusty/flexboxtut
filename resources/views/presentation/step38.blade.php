@@ -22,6 +22,7 @@
             margin:5px;
             padding-left:10px;
             background-color: #c2c2c2;
+            font-size:1.75vw;
         }
 
         .keyboard-key.isPressed {
@@ -217,7 +218,6 @@
         $(document).ready(function(){
             $("body").on("keydown", function(event){
                 var char = String.fromCharCode(event.keyCode);
-                console.log(event.keyCode + ":" + char);
 
                 var wasCaught = false;
                 //Handle Special Keys
@@ -225,99 +225,101 @@
                     case 192:
                         $('.keyboard-key-Backtick').addClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 9:
                         $(".keyboard-key-Tab").addClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 20:
                         $(".keyboard-key-Lock").addClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 16:
                         $(".keyboard-key-Shift").addClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 17:
                         $(".keyboard-key-Ctrl").addClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 91:
                         $(".keyboard-key-LWin").addClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 92:
                         $(".keyboard-key-RWin").addClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 93:
                         $(".keyboard-key-File").addClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 18:
                         $(".keyboard-key-Alt").addClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 32:
                         $(".keyboard-key-Space").addClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 13:
                         $(".keyboard-key-Enter").addClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 220:
                         $(".keyboard-key-Backslash").addClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 189:
                         $(".keyboard-key--").addClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 187:
                         $(".keyboard-key-Equals").addClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 8:
                         $(".keyboard-key-Backspace").addClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 219:
                         $(".keyboard-key-LBracket").addClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 221:
                         $(".keyboard-key-RBracket").addClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 222:
                         $(".keyboard-key-SQuote").addClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 186:
                         $(".keyboard-key-SColon").addClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 191:
                         $(".keyboard-key-FSlash").addClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 190:
                         $(".keyboard-key-Period").addClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 188:
                         $(".keyboard-key-Comma").addClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                 }
 
                 if(!wasCaught){
                     if($(".keyboard-key-"+char).length > 0){
                         $(".keyboard-key-"+char).addClass("isPressed");
+                        console.log("Preventing default " + event.keycode);
                         event.preventDefault();
                     }
                 }else{
+                    console.log("Preventing default " + event.keycode);
                     event.preventDefault();
                 }
             });
@@ -330,91 +332,91 @@
                     case 192:
                         $('.keyboard-key-Backtick').removeClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 9:
                         $(".keyboard-key-Tab").removeClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 20:
                         $(".keyboard-key-Lock").removeClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 16:
                         $(".keyboard-key-Shift").removeClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 17:
                         $(".keyboard-key-Ctrl").removeClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 91:
                         $(".keyboard-key-LWin").removeClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 92:
                         $(".keyboard-key-RWin").removeClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 93:
                         $(".keyboard-key-File").removeClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 18:
                         $(".keyboard-key-Alt").removeClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 32:
                         $(".keyboard-key-Space").removeClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 13:
                         $(".keyboard-key-Enter").removeClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 220:
                         $(".keyboard-key-Backslash").removeClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 189:
                         $(".keyboard-key--").removeClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 187:
                         $(".keyboard-key-Equals").removeClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 8:
                         $(".keyboard-key-Backspace").removeClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 219:
                         $(".keyboard-key-LBracket").removeClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 221:
                         $(".keyboard-key-RBracket").removeClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 222:
                         $(".keyboard-key-SQuote").removeClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 186:
                         $(".keyboard-key-SColon").removeClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 191:
                         $(".keyboard-key-FSlash").removeClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 190:
                         $(".keyboard-key-Period").removeClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                     case 188:
                         $(".keyboard-key-Comma").removeClass("isPressed");
                         wasCaught = true;
-                        return;
+                        break;
                 }
 
                 if(!wasCaught){

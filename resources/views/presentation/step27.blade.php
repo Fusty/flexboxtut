@@ -16,18 +16,21 @@
     <div style="display:flex;flex-direction:column;justify-content:center;align-items:stretch;">
         <div class="row">
             <div class="col-xs-6">
-                Stretched to fill height (does not stretch items, just the spacing is even)<br/>
+                Stretched to fill height<br/>
                 <code>
                     display:flex;<br/>
                     flex-direction:row;<br/>
                     flex-wrap:wrap;<br/>
                     justify-content:flex-start;<br/>
-                    align-items:flex-start;<br/>
                     align-content:stretch;<br/>
                 </code>
                 on the parent<br/>
+                <h3>Note:</h3>
+                I took <code>align-items:flex-start;</code> off.<br/>
+                It seems to interfere with the items stretching along their<br/>
+                cross axis
             </div>
-            <div class="parent col-xs-6" style="display:flex;flex-direction:row;flex-wrap:wrap;justify-content:flex-start;align-items:flex-start;align-content:stretch;min-height:400px;padding:0px;">
+            <div class="parent col-xs-6" style="display:flex;flex-direction:row;flex-wrap:wrap;justify-content:flex-start;align-content:stretch;min-height:400px;padding:0px;">
                 <div class="child">
                     Item 1
                 </div>

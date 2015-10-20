@@ -25,6 +25,11 @@
                     align-items:stretch;<br/>
                 </code>
                 on the parent<br/>
+                <h3>What's going on here?</h3>
+                <code>align-items:stretch;</code> is a useful one<br/>
+                Stretch makes the child element flex to fill it's cross axis<br/>
+                This one is sweet for headers and footers or anything where<br/>
+                you want elements to match their largest neighbor in a row/column
 
             </div>
             <div class="parent" style="display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-around;align-items:stretch;min-width:600px">

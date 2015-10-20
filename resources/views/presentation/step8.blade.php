@@ -32,12 +32,12 @@
                     flex-grow:1;<br/>
                     flex-shrink:0;<br/>
                 </code>
-                on the body/content<br/><br/>
-                Grow 0 forbids stretching the div<br/>
-                beyond its contents/explicit height<br/>
-                Shrink 0 forbids shrinking the div smaller<br/>
-                than its contents/explicit height
-
+                on the body/content
+                <h3>What's going on here?</h3>
+                <code>flex-grow:0;</code> forbids stretching the div<br/>
+                beyond its contents height<br/>
+                <code>flex-shrink:0;</code> forbids shrinking the div smaller<br/>
+                than its contents height
             </div>
             <div class="parent" style="display:flex;flex-direction:column;min-height:300px">
                 <div class="child" style="flex-grow:0;flex-shrink:0;">

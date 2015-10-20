@@ -26,7 +26,10 @@
                     align-content:flex-start;<br/>
                 </code>
                 on the parent<br/>
-
+                <h3>What's going on here?</h3>
+                <code>align-content</code> is kind of like <code>justify-content</code><br/>
+                except it applies to the cross axis and basically <br/>
+                only matters if items are wrapping
             </div>
             <div class="parent col-xs-6" style="display:flex;flex-direction:row;flex-wrap:wrap;justify-content:flex-start;align-items:flex-start;align-content:flex-start;min-height:400px;padding:0px;">
                 <div class="child">
