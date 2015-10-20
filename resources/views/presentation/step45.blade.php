@@ -18,7 +18,7 @@
             Thanks for lunching and learning.<br/><br/>
             I'll be putting any further demos I create up on CodePen<br/>
             <a href="http://codepen.io/collection/ANqBaK/">Flexbox Demo Collection</a><br/><br/>
-            You can get snag this entire presentation off of github<br/>
+            You can get snag this entire presentation off of github (it's a laravel project)<br/>
             <a href="https://github.com/Fusty/flexboxtut">https://github.com/Fusty/flexboxtut</a>
         </div>
     </div>
