@@ -5,6 +5,13 @@
 @endsection
 
 @section("head")
+<style>
+    .slant-row {
+        display:flex;
+        flex-direction:row;
+        justify-content:flex-start;
+    }
+</style>
 @endsection
 
 @section("header")
@@ -13,6 +20,13 @@
 @endsection
 
 @section("content")
+    <div class="slant-row">
+        @foreach(range(0,50) as $index=>$value)
+            <div class="slant-item">
+                Item {{ $index }}
+            </div>
+        @endforeach
+    </div>
 @endsection
 
 @section("footer")

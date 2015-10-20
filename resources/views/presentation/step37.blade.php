@@ -97,8 +97,7 @@
         <div class="color" style="background-color:rgb(178, 134, 110);">
             <h4>Butte Hoel</h4>
             <p class="showText">
-                A gentle starfish upon a<br/>
-                sea of cream<br/><br/>
+                A gentle starfish<br/><br/>
                 Red: 178<br/>
                 Green: 134<br/>
                 Blue: 110<br/>
