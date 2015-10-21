@@ -14,12 +14,11 @@
 @section("content")
     <div style="display:flex;flex-direction:row;justify-content:center;">
         <div style="max-width:900px;">
-            <h3>That's it!</h3>
-            Thanks for lunching and learning.<br/><br/>
-            I'll be putting any further demos I create up on CodePen<br/>
-            <a href="http://codepen.io/collection/ANqBaK/">Flexbox Demo Collection</a><br/><br/>
-            You can get snag this entire presentation off of github (it's a laravel project)<br/>
-            <a href="https://github.com/Fusty/flexboxtut">https://github.com/Fusty/flexboxtut</a>
+            <h3>Browser Support</h3>
+            IE 10 support is partial, IE 11+ and Edge are fully supported<br/>
+            Firefox, Chrome, Safari (iOS too), Opera and Android are fully supported<br/><br/>
+            Basically you can use it. <a href="http://caniuse.com/#feat=flexbox">http://caniuse.com/#feat=flexbox</a><br/><br/>
+            There is a polyfill for legacy support.  <a href="https://github.com/doctyper/flexie">https://github.com/doctyper/flexie</a>
         </div>
     </div>
 @endsection

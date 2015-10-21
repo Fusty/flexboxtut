@@ -14,16 +14,15 @@
 @section("content")
     <div style="display:flex;flex-direction:row;justify-content:center;">
         <div style="max-width:900px;">
-            <h3>Browser Shortcomings</h3>
-            Everything isn't perfect for flexbox yet.<br/>
-            Internet Explorer is the primary culprit.  It seems to do goofy<br/>
-            things with <code>min-height</code> on items that will flex vertically.<br/>
-            There's also an issue with unitless <code>flex-basis</code> values being ignored.<br/><br/>
-            In other browsers things are pretty much ok.<br/>
-            Safari has an issue with min/max height/width declarations<br/>
-            when things are wrapping.<br/><br/>
-            For a complete list visit the following:<br/>
-            <a href="https://github.com/philipwalton/flexbugs">https://github.com/philipwalton/flexbugs</a>
+            <h3>Shorthand</h3>
+            There isn't a ton of shorthand for flexbox yet.<br/><br/>
+            <code>flex: 1 0 auto</code> is short for<br/>
+            <code>flex-grow: 1;</code><br/>
+            <code>flex-shrink: 0;</code><br/>
+            <code>flex-basis: auto;</code><br/><br/>
+            <code>flex-flow: row nowrap;</code> is short for<br/>
+            <code>flex-direction: row;</code><br/>
+            <code>flex-wrap: nowrap;</code>
         </div>
     </div>
 @endsection

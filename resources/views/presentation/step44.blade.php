@@ -14,11 +14,16 @@
 @section("content")
     <div style="display:flex;flex-direction:row;justify-content:center;">
         <div style="max-width:900px;">
-            <h3>Browser Support</h3>
-            IE 10 support is partial, IE 11+ and Edge are fully supported<br/>
-            Firefox, Chrome, Safari (iOS too), Opera and Android are fully supported<br/><br/>
-            Basically you can use it. <a href="http://caniuse.com/#feat=flexbox">http://caniuse.com/#feat=flexbox</a><br/><br/>
-            There is a polyfill for legacy support.  <a href="https://github.com/doctyper/flexie">https://github.com/doctyper/flexie</a>
+            <h3>Browser Shortcomings</h3>
+            Everything isn't perfect for flexbox yet.<br/>
+            Internet Explorer is the primary culprit.  It seems to do goofy<br/>
+            things with <code>min-height</code> on items that will flex vertically.<br/>
+            There's also an issue with unitless <code>flex-basis</code> values being ignored.<br/><br/>
+            In other browsers things are pretty much ok.<br/>
+            Safari has an issue with min/max height/width declarations<br/>
+            when things are wrapping.<br/><br/>
+            For a complete list visit the following:<br/>
+            <a href="https://github.com/philipwalton/flexbugs">https://github.com/philipwalton/flexbugs</a>
         </div>
     </div>
 @endsection

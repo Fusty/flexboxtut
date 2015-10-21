@@ -6,205 +6,241 @@
 
 @section("head")
     <style>
-        .parent {
-            color:yellow;
-        }
-        .top-left {
+
+        .flex-row {
             display:flex;
             flex-direction:row;
-            justify-content:flex-start;
-            align-items:flex-start;
+            flex-wrap:wrap;
+
+            font-size:smaller;
         }
-        .center-left {
-            display:flex;
-            flex-direction:row;
-            justify-content:flex-start;
-            align-items:center;
+
+        .flex-row > * {
+            flex-grow:0;
+            flex-shrink:0;
+            padding:10px;
+
+            text-align:center;
+            background-clip:content-box;
         }
-        .bottom-left {
-            display:flex;
-            flex-direction:row;
-            justify-content:flex-start;
-            align-items:flex-end;
+
+        @foreach(range(1,12) as $col)
+
+        .flex-col-{{ $col }} {
+            flex-basis: {{(100/(12/$col))}}%
         }
-        .center-top {
-            display:flex;
-            flex-direction:row;
-            justify-content:center;
-            align-items:flex-start;
+        @endforeach
+
+        @foreach(range(1,11) as $col)
+
+        .flex-offset-{{ $col }} {
+            margin-left: {{(100/(12/$col))}}%
         }
-        .center-center {
-            display:flex;
-            flex-direction:row;
-            justify-content:center;
-            align-items:center;
+        @endforeach
+
+        .parent, .child, .child2, .child3 {
+            border: 0px none white;
         }
-        .center-bottom {
-            display:flex;
-            flex-direction:row;
-            justify-content:center;
-            align-items:flex-end;
-        }
-        .right-top {
-            display:flex;
-            flex-direction:row;
-            justify-content:flex-end;
-            align-items:flex-start;
-        }
-        .right-center {
-            display:flex;
-            flex-direction:row;
-            justify-content:flex-end;
-            align-items:center;
-        }
-        .right-bottom {
-            display:flex;
-            flex-direction:row;
-            justify-content:flex-end;
-            align-items:flex-end;
-        }
+
     </style>
 @endsection
 
 @section("header")
     @include("presentation.header", ['stepNum' => $stepNum, 'maxSteps' => $maxSteps])
-    <div class="header-item header-brand" style="font-weight:normal;">Positioning Workout</div>
+    <div class="header-item header-brand" style="font-weight:normal;">Bootstrap Grid Recreation</div>
+    <div class="header-item header-brand" style="font-size:smaller;font-weight:normal;">Dirt Simple</div>
 @endsection
 
 @section("content")
-    <div style="display:flex;flex-direction:row;align-items:stretch;">
-        <pre class="prettyprint" style="flex-basis:50%;margin-bottom:0;">
-    Top Left
-
-    .top-left {
-        display:flex;
-        flex-direction:row;
-        justify-content:flex-start;/*Main Axis*/
-        align-items:flex-start;/*Cross Axis*/
-    }
-        </pre>
-        <div class="top-left parent" style="flex-basis:50%;">
-            I should be in the top left
+    <div class="flex-row parent">
+        @foreach(range(1,12) as $range)
+        <div class="flex-col-1 child">
+            .flex-col-1
+        </div>
+        @endforeach
+    </div>
+    <div class="flex-row parent">
+        <div class="flex-col-6 child">
+            .flex-col-6
+        </div>
+        <div class="flex-col-6 child">
+            .flex-col-6
         </div>
     </div>
-    <div style="display:flex;flex-direction:row;align-items:stretch;">
-        <pre class="prettyprint" style="flex-basis:50%;margin-bottom:0;">
-    Center left
-
-    .center-left {
-        display:flex;
-        flex-direction:row;
-        justify-content:flex-start;/*Main Axis*/
-        align-items:center;/*Cross Axis*/
-    }
-        </pre>
-        <div class="center-left parent" style="flex-basis:50%;">
-            I should be in the center left
+    <div class="flex-row parent">
+        <div class="flex-col-3 child">
+            .flex-col-3
+        </div>
+        <div class="flex-col-6 child">
+            .flex-col-6
+        </div>
+        <div class="flex-col-3 child">
+            .flex-col-3
         </div>
     </div>
-    <div style="display:flex;flex-direction:row;align-items:stretch;">
-        <pre class="prettyprint" style="flex-basis:50%;margin-bottom:0;">
-    Bottom left
-
-    .bottom-left {
-        display:flex;
-        flex-direction:row;
-        justify-content:flex-start;/*Main Axis*/
-        align-items:center;/*Cross Axis*/
-    }
-        </pre>
-        <div class="bottom-left parent" style="flex-basis:50%;">
-            I should be in the bottom left
+    <div class="flex-row parent">
+        <div class="flex-col-1 child">
+            .flex-col-1
+        </div>
+        <div class="flex-col-1 child">
+            .flex-col-1
+        </div>
+        <div class="flex-col-8 child">
+            .flex-col-8
+        </div>
+        <div class="flex-col-1 child">
+            .flex-col-1
+        </div>
+        <div class="flex-col-1 child">
+            .flex-col-1
         </div>
     </div>
-    <div style="display:flex;flex-direction:row;align-items:stretch;">
-        <pre class="prettyprint" style="flex-basis:50%;margin-bottom:0;">
-    Center Top
-
-    .center-top {
-        display:flex;
-        flex-direction:row;
-        justify-content:center;/*Main Axis*/
-        align-items:flex-start;/*Cross Axis*/
-    }
-        </pre>
-        <div class="center-top parent" style="flex-basis:50%;">
-            I should be in the center top
+    <div class="flex-row parent">
+        <div class="flex-col-6 flex-offset-3 child">
+            .flex-col-6 .flex-offset-3
         </div>
     </div>
-    <div style="display:flex;flex-direction:row;align-items:stretch;">
-        <pre class="prettyprint" style="flex-basis:50%;margin-bottom:0;">
-    Center Center
-
-    .center-center {
-        display:flex;
-        flex-direction:row;
-        justify-content:center;/*Main Axis*/
-        align-items:center;/*Cross Axis*/
-    }
-        </pre>
-        <div class="center-center parent" style="flex-basis:50%;">
-            I should be in the center center
+    <div class="flex-row parent">
+        <div class="flex-col-6 flex-offset-1 child">
+            .flex-col-6 .flex-offset-1
         </div>
     </div>
-    <div style="display:flex;flex-direction:row;align-items:stretch;">
-        <pre class="prettyprint" style="flex-basis:50%;margin-bottom:0;">
-    Center Bottom
-
-    .center-bottom {
-        display:flex;
-        flex-direction:row;
-        justify-content:center;/*Main Axis*/
-        align-items:flex-end;/*Cross Axis*/
-    }
-        </pre>
-        <div class="center-bottom parent" style="flex-basis:50%;">
-            I should be in the center bottom
+    <div class="flex-row parent">
+        <div class="flex-col-1 child">
+            .flex-col-1
+        </div>
+        <div class="flex-col-1 child">
+            .flex-col-1
+        </div>
+        <div class="flex-col-6 child flex-row">
+            <div class="flex-col-12 child2">
+                Nested Grid<br/>
+                .flex-col-12
+            </div>
+            <div class="flex-col-4 child2">
+                .flex-col-4
+            </div>
+            <div class="flex-col-4  child2">
+                .flex-col-4
+            </div>
+            <div class="flex-col-4  child2">
+                .flex-col-4
+            </div>
         </div>
     </div>
-    <div style="display:flex;flex-direction:row;align-items:stretch;">
-        <pre class="prettyprint" style="flex-basis:50%;margin-bottom:0;">
-    Right Top
+    <div class="flex-row">
+        <div class="flex-col-6" style="text-align:left;">
+            <pre class="prettyprint">
+Vanilla CSS
 
-    .right-top {
-        display:flex;
-        flex-direction:row;
-        justify-content:flex-end;/*Main Axis*/
-        align-items:flex-start;/*Cross Axis*/
-    }
-        </pre>
-        <div class="right-top parent" style="flex-basis:50%;">
-            I should be in the right top
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.flex-row > * {
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding: 10px;
+}
+.flex-col-1 {
+    flex-basis: 8.33333%;
+}
+.flex-col-2 {
+    flex-basis: 16.66667%;
+}
+.flex-col-3 {
+    flex-basis: 25%;
+}
+.flex-col-4 {
+    flex-basis: 33.33333%;
+}
+.flex-col-5 {
+    flex-basis: 41.66667%;
+}
+.flex-col-6 {
+    flex-basis: 50%;
+}
+.flex-col-7 {
+    flex-basis: 58.33333%;
+}
+.flex-col-8 {
+    flex-basis: 66.66667%;
+}
+.flex-col-9 {
+    flex-basis: 75%;
+}
+.flex-col-10 {
+    flex-basis: 83.33333%;
+}
+.flex-col-11 {
+    flex-basis: 91.66667%;
+}
+.flex-col-12 {
+    flex-basis: 100%;
+}
+.flex-offset-1 {
+    margin-left: 8.33333%;
+}
+.flex-offset-2 {
+    margin-left: 16.66667%;
+}
+.flex-offset-3 {
+    margin-left: 25%;
+}
+.flex-offset-4 {
+    margin-left: 33.33333%;
+}
+.flex-offset-5 {
+    margin-left: 41.66667%;
+}
+.flex-offset-6 {
+    margin-left: 50%;
+}
+.flex-offset-7 {
+    margin-left: 58.33333%;
+}
+.flex-offset-8 {
+    margin-left: 66.66667%;
+}
+.flex-offset-9 {
+    margin-left: 75%;
+}
+.flex-offset-10 {
+    margin-left: 83.33333%;
+}
+.flex-offset-11 {
+    margin-left: 91.66667%;
+}
+            </pre>
         </div>
-    </div>
-    <div style="display:flex;flex-direction:row;align-items:stretch;">
-        <pre class="prettyprint" style="flex-basis:50%;margin-bottom:0;">
-    Right Center
+        <div class="flex-col-6" style="text-align:left;">
+            <pre class="prettyprint">
+SCSS (Sass)
 
-    .right-center {
-        display:flex;
-        flex-direction:row;
-        justify-content:flex-end;/*Main Axis*/
-        align-items:center;/*Cross Axis*/
+.flex-row {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    >* {
+        flex-grow:0;
+        flex-shrink:0;
+        padding:10px;
     }
-        </pre>
-        <div class="right-center parent" style="flex-basis:50%;">
-            I should be in the right center
-        </div>
-    </div>
-    <div style="display:flex;flex-direction:row;align-items:stretch;">
-        <pre class="prettyprint" style="flex-basis:50%;margin-bottom:0;">
-    Right Bottom
+}
 
-    .right-top {
-        display:flex;
-        flex-direction:row;
-        justify-content:flex-end;/*Main Axis*/
-        align-items:flex-end;/*Cross Axis*/
+&commat;for $i from 1 through 12 {
+    .flex-col-#{$i} {
+        flex-basis: percentage(1/(12/$i));
     }
-        </pre>
-        <div class="right-bottom parent" style="flex-basis:50%;">
-            I should be in the right bottom
+}
+
+&commat;for $i from 1 through 11 {
+    .flex-offset-#{$i} {
+        margin-left: percentage(1/(12/$i));
+    }
+}
+            </pre>
         </div>
     </div>
 @endsection
