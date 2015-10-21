@@ -14,7 +14,7 @@
             flex-direction:column;
 
             min-height:100vh;
-            background-color:rgb(215, 215, 215);
+            background-color: rgb(226, 226, 226);
         }
 
         .page-content {
@@ -51,7 +51,7 @@
             flex-shrink:0;
 
             min-height:3em;
-            background-color: rgb(34, 149, 101);
+            background-color: #1976d2;
             width:100%;
             border-bottom:2px solid rgb(232, 216, 88);
 
@@ -82,7 +82,7 @@
             flex-shrink:0;
 
             min-height:5em;
-            background-color: rgb(34, 149, 101);
+            background-color: #1976d2;
             width:100%;
             border-top:2px solid rgb(232, 216, 88);
         }

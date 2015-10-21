@@ -12,12 +12,10 @@
 @endsection
 
 @section("content")
-    <h2>Wow, Flexbox is the best!</h2>
     <div style="display:flex;flex-direction:column;justify-content:center;align-items:stretch;">
         <div style="display:flex;flex-direction:row;justify-content:space-around;">
             <div style="">
-                <br/><br/>
-
+                <h2>Wow, Flexbox is the best!</h2>
                 <h3>Let's see what it can do . . .</h3>
             </div>
         </div>
